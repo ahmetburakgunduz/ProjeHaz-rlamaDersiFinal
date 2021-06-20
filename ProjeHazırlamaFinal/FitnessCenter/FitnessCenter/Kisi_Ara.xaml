@@ -1,0 +1,16 @@
+﻿<Window x:Class="FitnessCenter.Kisi_Ara"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FitnessCenter"
+        mc:Ignorable="d"
+        Title="Kisi_Ara" Height="450" Width="800">
+    <Grid Background="#FF9ABCD8">
+        <DataGrid Name="grdEmployee" HorizontalAlignment="Left" Height="219" Margin="10,179,0,0" VerticalAlignment="Top" Width="772" Background="#FFDC7575" >
+        </DataGrid>
+        <Button Content="GERİ" HorizontalAlignment="Left" Margin="52,59,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Button_Click"/>
+        <Label Content="KAYITLI KİŞİLERİN BİLGİLERİ" Margin="224,104,0,0" VerticalAlignment="Top" Height="40" FontSize="25" FontWeight="Bold" Background="#FFDC7575" HorizontalAlignment="Left" Width="343"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,27 @@
+﻿<Window x:Class="FitnessCenter.KullanıcıGiris"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FitnessCenter"
+        mc:Ignorable="d"
+        Title="KullanıcıGiris" Height="450" Width="800">
+    <Grid Background="#FF9ABCD8">
+        <Label Content="KİŞİSEL BİLGİLER :" HorizontalAlignment="Left" Margin="263,85,0,0" VerticalAlignment="Top" Height="29" Width="112" FontWeight="Bold"/>
+        <Label Content="Ad-Soyad :" HorizontalAlignment="Left" Margin="263,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="Yaş :" HorizontalAlignment="Left" Margin="263,171,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label Content="Cinsiyet :" HorizontalAlignment="Left" Margin="263,200,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.086,-1.934"/>
+        <Label Content="Boy-Kilo :" HorizontalAlignment="Left" Margin="263,231,0,0" VerticalAlignment="Top"/>
+        <Label Content="TC No :" HorizontalAlignment="Left" Margin="263,262,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="AdSoyad_txt" Height="23" Margin="336,144,336,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="Yas_txt" HorizontalAlignment="Left" Height="23" Margin="336,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Cinsiyet_txt" HorizontalAlignment="Left" Height="23" Margin="336,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="BoyKilo_txt" HorizontalAlignment="Left" Height="23" Margin="336,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.012,-0.416"/>
+        <TextBox x:Name="TcNo_txt" Height="23" Margin="336,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120"/>
+        <Button x:Name="K_Bilgiler_Kaydet" Content="KAYDET" Margin="0,315,454,0" VerticalAlignment="Top" FontWeight="Bold" Click="K_Bilgiler_Kaydet_Click" HorizontalAlignment="Right" Width="75"/>
+        <Button x:Name="DEVAM" Content="DEVAM" Margin="381,315,0,0" VerticalAlignment="Top" FontWeight="Bold" HorizontalAlignment="Left" Width="75" Click="DEVAM_Click"/>
+        <Label Content="ID :" HorizontalAlignment="Left" Margin="263,110,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="ID_txt" Height="23" Margin="336,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120"/>
+
+    </Grid>
+</Window>
